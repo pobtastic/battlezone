@@ -1,0 +1,13 @@
+; tap2sna.py file for Battlezone. Run
+;
+;   $ tap2sna.py @battlezone.t2s
+;
+; to create a Z80 snapshot.
+
+https://worldofspectrum.net/pub/sinclair/games/b/Battlezone.tzx.zip
+Battlezone.z80
+
+--tape-name "Battlezone.tzx"
+--tape-sum 95a24e21b5d5a7a7a095259585200d28
+--start 0xFF27
+--sim-load-config accelerator=bleepload

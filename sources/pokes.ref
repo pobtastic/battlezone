@@ -1,0 +1,24 @@
+; Copyright 2024 Paul Maddern (paul@arcadegeek.co.uk)
+
+[Poke:Infinite Lives]
+<div>
+  <code>POKE #R$AE61,#N$00</code>
+</div>
+
+Removes the instruction which would otherwise decrease #R$FEE4.
+<table>
+  <tbody>
+    <tr>
+      <td class="address-1">#R$AE5E(#N$AE5E)</td>
+      <td class="instruction">LD #REGa,(#R$FEE4(#N$FEE4))</td>
+    </tr>
+    <tr>
+      <td class="address-1">#R$AE61(#N$AE61)</td>
+      <td class="instruction">DEC #REGa</td>
+    </tr>
+    <tr>
+      <td class="address-1">#R$AE62(#N$AE62)</td>
+      <td class="instruction">LD (#R$FEE4(#N$FEE4)),#REGa</td>
+    </tr>
+  </tbody>
+</table>
