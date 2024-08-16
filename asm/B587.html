@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Battlezone: Routine at B587</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../skoolkit.css" />
+<link rel="stylesheet" type="text/css" href="../skoolkit-dark.css" />
+<link rel="stylesheet" type="text/css" href="../skoolkit-wide.css" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-75RERFCHBG"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-75RERFCHBG');
+</script>
+</head>
+<body class="Asm-c">
+<table class="header">
+<tr>
+<td class="logo"><a href="../index.html"><img alt="logo" src="../images/logo.png" /></a></td>
+<td class="page-header">Routines</td>
+</tr>
+</table>
+<table class="asm-navigation">
+<tr>
+<td class="prev">
+Prev: <a href="B55D.html">B55D</a>
+</td>
+<td class="up">Up: <a href="../maps/all.html#b587">Map</a></td>
+<td class="next">
+Next: <a href="B66C.html">B66C</a>
+</td>
+</tr>
+</table>
+<div class="description">B587: Routine at B587</div>
+<table class="disassembly">
+<tr>
+<td class="routine-comment" colspan="5">
+<div class="details">
+<div class="paragraph">
+Used by the routine at <a href="B2F5.html">B2F5</a>.
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="address-2"><span id="b587"></span>B587</td>
+<td class="instruction">LD HL,$00C0</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b58a"></span>B58A</td>
+<td class="instruction">LD ($FE62),HL</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b58d"></span>B58D</td>
+<td class="instruction">LD HL,$0001</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b590"></span>B590</td>
+<td class="instruction">LD ($FE76),HL</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b593"></span>B593</td>
+<td class="instruction">CALL <a href="B55D.html">$B55D</a></td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b596"></span>B596</td>
+<td class="instruction">LD A,$FD</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b598"></span>B598</td>
+<td class="instruction">IN A,($FE)</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b59a"></span>B59A</td>
+<td class="instruction">AND $02</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b59c"></span>B59C</td>
+<td class="instruction">JP Z,<a href="AD3E.html#b0bc">$B0BC</a></td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b59f"></span>B59F</td>
+<td class="instruction">LD A,($FE6E)</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5a2"></span>B5A2</td>
+<td class="instruction">AND $80</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5a4"></span>B5A4</td>
+<td class="instruction">JP NZ,<a href="B587.html#b587">$B587</a></td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5a7"></span>B5A7</td>
+<td class="instruction">LD A,($FE5F)</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5aa"></span>B5AA</td>
+<td class="instruction">AND A</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5ab"></span>B5AB</td>
+<td class="instruction">JP P,<a href="B587.html#b587">$B587</a></td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5ae"></span>B5AE</td>
+<td class="instruction">LD HL,$F000</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5b1"></span>B5B1</td>
+<td class="instruction">LD ($FE5E),HL</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5b4"></span>B5B4</td>
+<td class="instruction">LD HL,$2800</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5b7"></span>B5B7</td>
+<td class="instruction">LD ($FE60),HL</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5ba"></span>B5BA</td>
+<td class="instruction">LD A,$40</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5bc"></span>B5BC</td>
+<td class="instruction">LD ($FE66),A</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5bf"></span>B5BF</td>
+<td class="instruction">LD ($FE6A),A</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-2"><span id="b5c2"></span>B5C2</td>
+<td class="instruction">LD HL,$0040</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5c5"></span>B5C5</td>
+<td class="instruction">LD ($FE62),HL</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5c8"></span>B5C8</td>
+<td class="instruction">LD HL,$0003</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5cb"></span>B5CB</td>
+<td class="instruction">LD ($FE76),HL</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5ce"></span>B5CE</td>
+<td class="instruction">CALL <a href="B55D.html">$B55D</a></td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5d1"></span>B5D1</td>
+<td class="instruction">LD A,$FD</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5d3"></span>B5D3</td>
+<td class="instruction">IN A,($FE)</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5d5"></span>B5D5</td>
+<td class="instruction">AND $02</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5d7"></span>B5D7</td>
+<td class="instruction">JP Z,<a href="AD3E.html#b0bc">$B0BC</a></td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5da"></span>B5DA</td>
+<td class="instruction">LD A,($FE6E)</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5dd"></span>B5DD</td>
+<td class="instruction">AND $40</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5df"></span>B5DF</td>
+<td class="instruction">JP NZ,<a href="B587.html#b5c2">$B5C2</a></td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5e2"></span>B5E2</td>
+<td class="instruction">LD A,($FE5F)</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5e5"></span>B5E5</td>
+<td class="instruction">AND A</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5e6"></span>B5E6</td>
+<td class="instruction">JP M,<a href="B587.html#b5c2">$B5C2</a></td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5e9"></span>B5E9</td>
+<td class="instruction">LD A,$FF</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5eb"></span>B5EB</td>
+<td class="instruction">LD ($FE94),A</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5ee"></span>B5EE</td>
+<td class="instruction">LD HL,$FF9C</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5f1"></span>B5F1</td>
+<td class="instruction">LD ($FE96),HL</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5f4"></span>B5F4</td>
+<td class="instruction">LD A,$A0</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5f6"></span>B5F6</td>
+<td class="instruction">LD ($FE6A),A</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5f9"></span>B5F9</td>
+<td class="instruction">LD HL,$A800</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5fc"></span>B5FC</td>
+<td class="instruction">LD ($FE60),HL</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b5ff"></span>B5FF</td>
+<td class="instruction">LD HL,$1000</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b602"></span>B602</td>
+<td class="instruction">LD ($FE8E),HL</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-2"><span id="b605"></span>B605</td>
+<td class="instruction">LD HL,$0000</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b608"></span>B608</td>
+<td class="instruction">LD ($FE62),HL</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b60b"></span>B60B</td>
+<td class="instruction">LD HL,$0005</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b60e"></span>B60E</td>
+<td class="instruction">LD ($FE76),HL</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b611"></span>B611</td>
+<td class="instruction">CALL <a href="B55D.html">$B55D</a></td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b614"></span>B614</td>
+<td class="instruction">LD A,$FD</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b616"></span>B616</td>
+<td class="instruction">IN A,($FE)</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b618"></span>B618</td>
+<td class="instruction">AND $02</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b61a"></span>B61A</td>
+<td class="instruction">JP Z,<a href="AD3E.html#b0bc">$B0BC</a></td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b61d"></span>B61D</td>
+<td class="instruction">LD A,($FE6E)</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b620"></span>B620</td>
+<td class="instruction">AND $20</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b622"></span>B622</td>
+<td class="instruction">JP NZ,<a href="B587.html#b605">$B605</a></td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b625"></span>B625</td>
+<td class="instruction">LD A,($FE8F)</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b628"></span>B628</td>
+<td class="instruction">AND A</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b629"></span>B629</td>
+<td class="instruction">JP P,<a href="B587.html#b605">$B605</a></td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b62c"></span>B62C</td>
+<td class="instruction">LD A,$03</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b62e"></span>B62E</td>
+<td class="instruction">LD ($FE78),A</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b631"></span>B631</td>
+<td class="instruction">LD HL,$7530</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b634"></span>B634</td>
+<td class="instruction">LD ($FE70),HL</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-2"><span id="b637"></span>B637</td>
+<td class="instruction">LD HL,$0002</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b63a"></span>B63A</td>
+<td class="instruction">LD ($FE76),HL</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b63d"></span>B63D</td>
+<td class="instruction">CALL <a href="B55D.html">$B55D</a></td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b640"></span>B640</td>
+<td class="instruction">LD A,$FD</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b642"></span>B642</td>
+<td class="instruction">IN A,($FE)</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b644"></span>B644</td>
+<td class="instruction">AND $02</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b646"></span>B646</td>
+<td class="instruction">JP Z,<a href="AD3E.html#b0bc">$B0BC</a></td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b649"></span>B649</td>
+<td class="instruction">LD A,($FE81)</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b64c"></span>B64C</td>
+<td class="instruction">CP $04</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b64e"></span>B64E</td>
+<td class="instruction">JP P,<a href="B587.html#b637">$B637</a></td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b651"></span>B651</td>
+<td class="instruction">LD HL,$4000</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b654"></span>B654</td>
+<td class="instruction">LD DE,$4001</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b657"></span>B657</td>
+<td class="instruction">LD BC,$1800</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b65a"></span>B65A</td>
+<td class="instruction">LD (HL),$00</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b65c"></span>B65C</td>
+<td class="instruction">LDIR</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b65e"></span>B65E</td>
+<td class="instruction">LD BC,$02FF</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b661"></span>B661</td>
+<td class="instruction">LDIR</td>
+<td class="comment-1" rowspan="1"></td>
+</tr>
+<tr>
+<td class="address-1"><span id="b663"></span>B663</td>
+<td class="instruction">LD HL,$3C00</td>
+<td class="comment-1" rowspan="2">Write <a rel="noopener nofollow" href="https://skoolkit.ca/disassemblies/rom/hex/asm/3D00.html">3C00</a> to *<a rel="noopener nofollow" href="https://skoolkit.ca/disassemblies/rom/hex/asm/5C36.html">CHARS</a>.</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b666"></span>B666</td>
+<td class="instruction">LD ($5C36),HL</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b669"></span>B669</td>
+<td class="instruction">JP <a href="B676.html">$B676</a></td>
+<td class="comment-1" rowspan="1">Jump to <a href="B676.html">B676</a>.</td>
+</tr>
+</table>
+<table class="asm-navigation">
+<tr>
+<td class="prev">
+Prev: <a href="B55D.html">B55D</a>
+</td>
+<td class="up">Up: <a href="../maps/all.html#b587">Map</a></td>
+<td class="next">
+Next: <a href="B66C.html">B66C</a>
+</td>
+</tr>
+</table>
+<footer>
+<div class="release"></div>
+<div class="copyright">&copy; 1984 Quicksilva Ltd &copy; 2024 ArcadeGeek LTD.</div>
+<div class="created">Created using <a href="https://skoolkit.ca">SkoolKit</a> 9.3.</div>
+<div class="repository">Link to <a rel="noopener nofollow" href="https://github.com/pobtastic/battlezone/">Source code</a>.</div>
+<div><a href="../dec/asm/46471.html">Switch to decimal</a>.</div>
+</footer>
+</body>
+</html>

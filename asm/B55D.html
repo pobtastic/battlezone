@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Battlezone: Routine at B55D</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="../skoolkit.css" />
+<link rel="stylesheet" type="text/css" href="../skoolkit-dark.css" />
+<link rel="stylesheet" type="text/css" href="../skoolkit-wide.css" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-75RERFCHBG"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-75RERFCHBG');
+</script>
+</head>
+<body class="Asm-c">
+<table class="header">
+<tr>
+<td class="logo"><a href="../index.html"><img alt="logo" src="../images/logo.png" /></a></td>
+<td class="page-header">Routines</td>
+</tr>
+</table>
+<table class="asm-navigation">
+<tr>
+<td class="prev">
+Prev: <a href="B2F5.html">B2F5</a>
+</td>
+<td class="up">Up: <a href="../maps/all.html#b55d">Map</a></td>
+<td class="next">
+Next: <a href="B587.html">B587</a>
+</td>
+</tr>
+</table>
+<div class="description">B55D: Routine at B55D</div>
+<table class="disassembly">
+<tr>
+<td class="routine-comment" colspan="5">
+<div class="details">
+<div class="paragraph">
+Used by the routine at <a href="B587.html">B587</a>.
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td class="address-2"><span id="b55d"></span>B55D</td>
+<td class="instruction">CALL <a href="977E.html">$977E</a></td>
+<td class="comment-1" rowspan="1">Call <a href="977E.html">977E</a>.</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b560"></span>B560</td>
+<td class="instruction">LD HL,$50AB</td>
+<td class="comment-1" rowspan="2">Write 50AB to *<a href="94EC.html#94ef">94F0</a>.</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b563"></span>B563</td>
+<td class="instruction">LD ($94F0),HL</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b566"></span>B566</td>
+<td class="instruction">LD HL,($FE76)</td>
+<td class="comment-1" rowspan="1"><span class="register">HL</span>=*<a href="FE76.html">FE76</a>.</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b569"></span>B569</td>
+<td class="instruction">CALL <a href="94EC.html">$94EC</a></td>
+<td class="comment-1" rowspan="1">Call <a href="94EC.html">94EC</a>.</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b56c"></span>B56C</td>
+<td class="instruction">LD HL,$C2B6</td>
+<td class="comment-1" rowspan="1"><span class="register">HL</span>=<a href="C2B6.html">C2B6</a>.</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b56f"></span>B56F</td>
+<td class="instruction">LD B,$13</td>
+<td class="comment-1" rowspan="1"><span class="register">B</span>=13.</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b571"></span>B571</td>
+<td class="instruction">CALL <a href="B66C.html">PrintCharacters</a></td>
+<td class="comment-1" rowspan="1">Call <a href="B66C.html">PrintCharacters</a>.</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b574"></span>B574</td>
+<td class="instruction">LD A,$16</td>
+<td class="comment-1" rowspan="6">PRINT AT 15, 10.</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b576"></span>B576</td>
+<td class="instruction">RST $10</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b577"></span>B577</td>
+<td class="instruction">LD A,$15</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b579"></span>B579</td>
+<td class="instruction">RST $10</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b57a"></span>B57A</td>
+<td class="instruction">LD A,$10</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b57c"></span>B57C</td>
+<td class="instruction">RST $10</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b57d"></span>B57D</td>
+<td class="instruction">LD A,$A9</td>
+<td class="comment-1" rowspan="6">POINT 08, 53.</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b57f"></span>B57F</td>
+<td class="instruction">RST $10</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b580"></span>B580</td>
+<td class="instruction">LD A,$08</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b582"></span>B582</td>
+<td class="instruction">RST $10</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b583"></span>B583</td>
+<td class="instruction">LD A,$53</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b585"></span>B585</td>
+<td class="instruction">RST $10</td>
+</tr>
+<tr>
+<td class="address-1"><span id="b586"></span>B586</td>
+<td class="instruction">RET</td>
+<td class="comment-1" rowspan="1">Return.</td>
+</tr>
+</table>
+<table class="asm-navigation">
+<tr>
+<td class="prev">
+Prev: <a href="B2F5.html">B2F5</a>
+</td>
+<td class="up">Up: <a href="../maps/all.html#b55d">Map</a></td>
+<td class="next">
+Next: <a href="B587.html">B587</a>
+</td>
+</tr>
+</table>
+<footer>
+<div class="release"></div>
+<div class="copyright">&copy; 1984 Quicksilva Ltd &copy; 2024 ArcadeGeek LTD.</div>
+<div class="created">Created using <a href="https://skoolkit.ca">SkoolKit</a> 9.3.</div>
+<div class="repository">Link to <a rel="noopener nofollow" href="https://github.com/pobtastic/battlezone/">Source code</a>.</div>
+<div><a href="../dec/asm/46429.html">Switch to decimal</a>.</div>
+</footer>
+</body>
+</html>
