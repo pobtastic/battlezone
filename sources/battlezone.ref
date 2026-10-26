@@ -1,3 +1,5 @@
+; Copyright 2026 Paul Maddern (paul@arcadegeek.co.uk)
+
 ;
 ; SkoolKit ref file for Battlezone
 ;
@@ -14,7 +16,7 @@ GameDir=battlezone
 [Game]
 Game=Battlezone
 Logo=#SCR$02,$09,$00,$0E,$05,$4000,$5800{$08,$08}(/images/logo)
-Copyright=&copy; 1984 Quicksilva Ltd &copy; 2024 ArcadeGeek LTD.
+Copyright=&copy; 1984 Quicksilva Ltd, Atari<br />&copy; 2026 ArcadeGeek LTD.
 Repository=https://github.com/pobtastic/battlezone/
 LinkInternalOperands=1
 AddressAnchor={address#IF({base}==16)(:04x)}

@@ -1,3 +1,4 @@
+# Copyright 2026 Paul Maddern (paul@arcadegeek.co.uk)
 GAME=battlezone
 SRCFILES=$(echo battlezone.skool {battlezone,analytics,bases,changelog,pokes}.ref {dark,wide}.css)
 SKOOL2BINOPTS="-i 65319"
